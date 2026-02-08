@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Taylor Swift 1989 Palette - Taylor's Version */
+    --background: 25 45% 96%;
+    /* Very light version of #ead5c6 */
+    --foreground: 329 15% 46%;
+    /* #866475 for text visibility */
+    --card: 0 0% 100%;
+    --card-foreground: 329 15% 46%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 329 15% 46%;
+
+    /* Primary: #789ac0 */
+    --primary: 212 36% 62%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: #b7bdc9 */
+    --secondary: 221 14% 76%;
+    --secondary-foreground: 329 15% 46%;
+
+    /* Accent: #af9cb1 */
+    --accent: 294 12% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted: #ead5c6 */
+    --muted: 25 45% 85%;
+    --muted-foreground: 329 15% 46%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 221 14% 76%;
+    --input: 221 14% 76%;
+    --ring: 212 36% 62%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
