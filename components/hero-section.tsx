@@ -9,15 +9,15 @@ export function HeroSection() {
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-muted/30 to-background">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center space-y-8">
-          <div className="relative w-24 h-24 mb-4 rounded-2xl overflow-hidden shadow-lg">
-            {/* <Image
+          {/* <div className="relative w-24 h-24 mb-4 rounded-2xl overflow-hidden shadow-lg">
+            <Image
               src="/logo.jpg"
               alt="BusinessApps Logo"
               fill
               className="object-cover"
               priority
-            /> */}
-          </div>
+            />
+          </div> */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-primary max-w-4xl text-balance">
             Systems that work as hard as you do.
           </h1>
