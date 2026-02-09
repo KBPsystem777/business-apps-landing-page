@@ -10,13 +10,13 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative w-24 h-24 mb-4 rounded-2xl overflow-hidden shadow-lg">
-            <Image
+            {/* <Image
               src="/logo.jpg"
               alt="BusinessApps Logo"
               fill
               className="object-cover"
               priority
-            />
+            /> */}
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-primary max-w-4xl text-balance">
             Systems that work as hard as you do.
